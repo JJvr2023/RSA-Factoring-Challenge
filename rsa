@@ -4,15 +4,15 @@ import sys
 def factorization():
 
     """
-    # RSA Laboratories states that: for each RSA number c
-    # ...there exist prime numbers a and b such that
-    # n = a × b. The problem is to find these two primes, given only c.
+    # RSA Laboratories states that: for each RSA number n
+    # ...there exist prime numbers p and q such that
+    # n = p × q. The problem is to find these two primes, given only n.
     # VARIABLE(" "):
     # factorize(int) Factorize all the things!
     # This task is the same as task 0, except:
     # .....p and q are always prime numbers
     # .....There is only one number in the files
-    # .....How far can you go in less than 5 second? 
+    # .....How far can you go in less than 5 seconds? 
     """
     try:
         files = sys.argv[1]
